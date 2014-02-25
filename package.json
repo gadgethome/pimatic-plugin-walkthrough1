@@ -1,0 +1,27 @@
+{ "name": "pimatic-plugin-walkthrough1",
+  "description": "Plugin pimatic-plugin-walkthrough1",
+  "author": "Paul Nugent paul.nugent01@gmail.com",
+  "main": "my-plugin",
+  "files": [
+    "my-plugin.coffee",
+    "README.md",
+    "my-device-config-schema.coffee",
+    "my-plugin-config-schema.coffee"
+  ],
+  "version": "0.0.1",
+  "homepage": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pimatic/pimatic-plugin-walkthrough1.git"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pimatic": "0.5.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
